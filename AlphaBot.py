@@ -44,7 +44,7 @@ class AlphaBot(object):
         GPIO.output(self.IN2, GPIO.LOW)
         GPIO.output(self.IN3, GPIO.HIGH)
         GPIO.output(self.IN4, GPIO.LOW)
-        time.sleep(int(tempo))
+        time.sleep(tempo)
         self.stop()
 
     #stop-------------------------------------------------------------    
@@ -72,7 +72,7 @@ class AlphaBot(object):
         GPIO.output(self.IN2, GPIO.HIGH)
         GPIO.output(self.IN3, GPIO.LOW)
         GPIO.output(self.IN4, GPIO.HIGH)
-        time.sleep(int(tempo))
+        time.sleep(tempo)
         self.stop()
     
     #forward---------------------------------------------------------------------
@@ -91,7 +91,7 @@ class AlphaBot(object):
         GPIO.output(self.IN2, GPIO.HIGH)
         GPIO.output(self.IN3, GPIO.HIGH)
         GPIO.output(self.IN4, GPIO.LOW)
-        time.sleep(int(tempo))
+        time.sleep(tempo) 
         self.stop()
     
     #backward--------------------------------------------------------------------
@@ -110,7 +110,7 @@ class AlphaBot(object):
         GPIO.output(self.IN2, GPIO.LOW)
         GPIO.output(self.IN3, GPIO.LOW)
         GPIO.output(self.IN4, GPIO.HIGH)
-        time.sleep(int(tempo))
+        time.sleep(tempo)
         self.stop()
 
     def set_pwm_a(self, value):

@@ -3,7 +3,7 @@
 import socket as sck
 
 s = sck.socket(sck.AF_INET, sck.SOCK_STREAM)
-s.connect(('192.168.0.121', 10000))
+s.connect(('192.168.0.126', 24000))
 while True:
     istruzione = input("inserire un comando: ") #comando,durata
     s.sendall(istruzione.encode())
