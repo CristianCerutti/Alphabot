@@ -46,8 +46,9 @@ class AlphaBot(object):
         GPIO.output(self.IN4, GPIO.LOW)
         time.sleep(tempo)
         self.stop()
+    #--------------------------------------------------------------------------
 
-    #stop-------------------------------------------------------------    
+    #stop----------------------------------------------------------------------    
     def stop(self):
         self.PWMA.ChangeDutyCycle(0)
         self.PWMB.ChangeDutyCycle(0)
@@ -55,8 +56,9 @@ class AlphaBot(object):
         GPIO.output(self.IN2, GPIO.LOW)
         GPIO.output(self.IN3, GPIO.LOW)
         GPIO.output(self.IN4, GPIO.LOW)
+    #---------------------------------------------------------------------------
 
-    #right--------------------------------------------------------------------
+    #right----------------------------------------------------------------------
     def right(self, speed=25):
         self.PWMA.ChangeDutyCycle(speed)
         self.PWMB.ChangeDutyCycle(speed)
@@ -74,7 +76,8 @@ class AlphaBot(object):
         GPIO.output(self.IN4, GPIO.HIGH)
         time.sleep(tempo)
         self.stop()
-    
+    #----------------------------------------------------------------------------
+
     #forward---------------------------------------------------------------------
     def forward(self):
         self.PWMA.ChangeDutyCycle(self.PA)
@@ -93,7 +96,8 @@ class AlphaBot(object):
         GPIO.output(self.IN4, GPIO.LOW)
         time.sleep(tempo) 
         self.stop()
-    
+    #----------------------------------------------------------------------------
+
     #backward--------------------------------------------------------------------
     def backward(self):
         self.PWMA.ChangeDutyCycle(self.PA)
@@ -112,6 +116,7 @@ class AlphaBot(object):
         GPIO.output(self.IN4, GPIO.HIGH)
         time.sleep(tempo)
         self.stop()
+    #----------------------------------------------------------------------------
 
     def set_pwm_a(self, value):
         self.PA = value
