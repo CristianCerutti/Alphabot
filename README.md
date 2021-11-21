@@ -10,4 +10,4 @@ We have created a project that consists in making the alphabot perform basic mov
 | db_movimenti.db  | This is the database containing the various movements that the aplhabot must perform
 | server.py | The file server must be inserted in the alphabot so that it can receive commands with various movements from the client
 
-Within our project we also used programs such as putty ![alt text] https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3APuTTY_icon_128px.png&psig=AOvVaw3CKnpFcVtwuPkT5TcVLg1Y&ust=1637599657128000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCUkJ70qfQCFQAAAAAdAAAAABAD and WinSCP to transfer the file server to the alphabot
+Within our project we also used programs such as putty ![image](https://github.com/thecodebuzz/FileSizePOC/blob/master/TheCodebuzz.png?raw=true) and WinSCP to transfer the file server to the alphabot
