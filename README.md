@@ -11,3 +11,13 @@ We have created a project that consists in making the alphabot perform basic mov
 | server.py | The file server must be inserted in the alphabot so that it can receive commands with various movements from the client
 
 Within our project we also used programs such as putty and WinSCP to transfer the file server to the alphabot
+
+# Movements
+| Name of the movement     | Description                        
+| :-------- | :--------------------------------- 
+| a  | this movement allows you to go left
+| w  | this movement allows you to go forward
+| s  | this movement allows you to go forward
+| d | this movement allows you to go right
+| zig | this movement allows you to do a zig-zag movement
+| giro | this movement allows you to go make a circle
