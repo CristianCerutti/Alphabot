@@ -22,4 +22,6 @@ Within our project we also used programs such as putty and WinSCP to transfer th
 | zig | this movement allows you to do a zig-zag movement
 | giro | this movement allows you to go make a circle
 
+# ER diagram
+
 <img src="" width="300">
