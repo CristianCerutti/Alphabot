@@ -1,0 +1,23 @@
+#body{
+    background-color: cornsilk;
+}
+
+#form{
+    text-align: center;
+}
+
+.avanti{
+    background-color: darkgreen;
+}
+
+.bottoni {
+    
+    background-color: cyan;
+    font-family: cursive;
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+  }
+
